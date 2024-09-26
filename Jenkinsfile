@@ -1,9 +1,8 @@
 pipeline{
     agent any
-
-    environment {
+      environment {
         BRANCH_NAME = 'main'
-        GIT_URL 'https://github.com/kapedo24/aws-cicd.git'
+        GIT_URL = 'https://github.com/kapedo24/aws-cicd.git'
     }
 
     stages{
