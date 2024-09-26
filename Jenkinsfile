@@ -2,7 +2,7 @@ pipeline{
     agent any
 
     stages{
-        stage('git checkout'){
+        stage('git checkout1'){
             steps{
                 git branch: 'main', url: 'https://github.com/kapedo24/aws-cicd.git'
             }
