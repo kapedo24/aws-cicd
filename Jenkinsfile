@@ -4,7 +4,7 @@ pipeline{
         BRANCH_NAME = 'main'
         GIT_URL = 'https://github.com/kapedo24/aws-cicd.git'
         IMAGE_TAG = 'kapedo24/awscid'
-        IMAGE_VERSION = ${BUILD_NUMBER}
+        IMAGE_VERSION = "${BUILD_NUMBER}"
     }
 
     stages{
