@@ -8,7 +8,7 @@ pipeline{
     }
 
     stages{
-        stage('git checkout1'){
+        stage('git checkout2'){
             steps{
                 git branch: "${BRANCH_NAME}", url: "${GIT_URL}"
             }
